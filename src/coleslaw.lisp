@@ -40,7 +40,7 @@
       (publish ctype))
     (do-subclasses (itype index)
       (publish itype))
-    (update-symlink (format nil "index.~A" (page-ext *config*))
+    (update-symlink (blog-index *config*)
                     (format nil "1.~A" (page-ext *config*)))))
 
 (defgeneric deploy (staging)
