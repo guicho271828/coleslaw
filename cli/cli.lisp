@@ -52,6 +52,7 @@
            (:url \"http://soundcloud.com/~a\" :name \"Music\")
            (:url \"http://redlinernotes.com/docs/talks/\" :name \"Talks\"))
  :staging-dir \"/tmp/coleslaw/\"  ;; for Coleslaw to do intermediate work, default: \"/tmp/coleslaw\"
+ ; :blog-index  \"index.html\"      ;; uncomment this if you want the index to be a custom page.
 )
 
 ;; * Prerequisites described in plugin docs."
